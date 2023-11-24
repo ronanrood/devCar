@@ -4,6 +4,7 @@
     --houverOrange: #ED5506;
     --white: #FFFFFF;
     --blue: #00285F;
+    --grey: #EDEDED;
 }
 *{
     margin: 0;
@@ -21,7 +22,6 @@
     padding: 40px;
     background: var(--orange);
     color: var(--blue);
-    position: relative;
 }
 .linksContainer{
     display: flex;
@@ -62,8 +62,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: -350px;
+    margin-top: -350px;
+    
 }
 .slideContainer{
     background-color: var(--blue);
@@ -91,4 +91,47 @@ header{
 .slideContainer > img{
     height: 260px;
     width: 515px;
+}
+section{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.catalogContainer{
+    width: 1000px;               
+    margin-top: 80px;   
+}
+.titleCatalog{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.searchCatalog{
+    margin-top: 20px;
+    background-color: var(--grey);
+    border-radius: 5px ;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputSearch{
+    height: 70px;
+    width: 700px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+.inputSubmit{
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blue);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--white);
+}
+.inputSubmit:hover{
+    background: var(--houverOrange);
 }
