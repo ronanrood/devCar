@@ -216,3 +216,50 @@ section{
     color: #938F8F;
     margin-top: 30px;
 }
+.featuresContainer{
+    height: 1030px;
+    width: 100%;
+    background: var(--grey);
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleFeatures{
+    width: 1000px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.cardFeaturesContainer{
+    background: var(--white);
+    width: 1000px;
+    height: 560px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 60px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.cardFeatures{
+    height: 150px;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EDEDED;
+}
+.cardFeatures:hover{
+    background: #EDEDED;
+}
+.cardFeatures > img{
+    height: 70px;
+}
+.textCardFeatures{
+    width: 220px;
+    margin-left: 30px;
+}
