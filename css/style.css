@@ -251,6 +251,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border: 1px solid #EDEDED;
 }
 .cardFeatures:hover{
@@ -262,4 +263,64 @@ section{
 .textCardFeatures{
     width: 220px;
     margin-left: 30px;
+}
+.footerContainer{
+    background: var(--orange);
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-evenly;
+    align-items: start;
+    color: var(--white);
+}
+.footerContainer h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.companySectionFotter{
+    display: flex;
+    flex-direction: column;
+}
+.companySectionFotter > ul > li{
+    list-style: none;
+    padding-bottom: 15px;    
+} 
+.companySectionFotter ul > li > a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.rentalSectionFooter{
+    display: flex;
+    flex-direction: column;
+}
+.rentalSectionFooter > ul > li{
+    list-style: none;
+    padding-bottom: 20px;    
+} 
+.rentalSectionFooter ul > li > a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.imagesStayConnected > a > img{
+    margin-right: 20px;
+    height: 32px;
+    width: 32px;
+}
+.contactUsSectionFooter > p{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footerEnd{
+    background:var(--blue);
+    color: var(--grey);
+    font-size: 12px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
